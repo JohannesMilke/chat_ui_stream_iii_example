@@ -1,0 +1,51 @@
+name: chat_ui_stream_iii_example
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # stream chat
+  stream_chat_flutter: ^0.2.21
+
+  # firebase
+  cloud_firestore: ^0.16.0
+  firebase_auth: ^0.20.0+1
+  firebase_core: ^0.7.0
+  firebase_storage: ^7.0.0
+
+  # google sign in
+  google_sign_in: ^4.5.9
+
+  # google signin icon
+  font_awesome_flutter: ^8.11.0
+
+  # state management
+  provider: ^4.3.3
+
+  # responsive web
+  responsive_builder: ^0.3.0
+
+  # camera for stories
+  camerawesome: ^0.1.2+1
+
+  # stories
+  story_view: ^0.12.6
+  timeago: ^2.0.29
+
+  foundation:
+    path: foundation/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
